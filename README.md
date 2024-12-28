@@ -1,74 +1,10 @@
-Here’s an updated version of your README file with your implementation details, future scope, and mobile interaction sections:
-
-```markdown
-<a name="readme-top"></a>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/alperrkilic/Parking-Space-Counter-Project">
-    <img src="readme-images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Parking Space Counter</h3>
-
-  <p align="center">
-    A Parking Space Counter Project
-    <br />
-    <a href="https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project">View Demo</a>
-    ·
-    <a href="https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project/issues">Request Feature</a>
-  </p>
-</div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <!-- <li><a href="#usage">Usage</a></li> -->
-    <li><a href="#images">Images</a></li>
-    <li><a href="#implementation">Implementation</a></li>
-    <li><a href="#future-scope">Future Scope</a></li>
-    <li><a href="#mobile-interaction">Mobile Interaction</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project)
+ <td>
+      <img src="readme-images/parking-spaces-to-be-checked.png"></img>
+    </td>
 
 The Parking Space Counter project is designed to help parking lot operators or drivers quickly and easily determine the number of available parking spaces in a lot. By using computer vision techniques to analyze video footage of the lot, the system can accurately count the number of open spaces and make this information available in real-time. This project can be easily applied to any parking space with just a camera and a computer, helping people find available parking spots quickly and easily.
 
@@ -140,7 +76,7 @@ _Installing the Parking Space Counter is quick and easy. Follow these simple ste
 ## Images
 
 [![Screen Shots][parking-spaces-to-be-checked]](https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project)
-
+   
 _Places that are considered as parking spaces manually selected with ParkingSpacePicker.py_
 
 
@@ -156,10 +92,16 @@ _Places that are considered as parking spaces manually selected with ParkingSpac
 _After selecting the parking spaces, storing them into CarParkPos file and splitting each frame that are selected with ParkingSpacePicker.py_
 
 [![Screen Shots][blurred-img]](https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project)
+ <td>
+      <img src="readme-images/Blurred-image.png"></img>
+    </td>
 
 _Blurring the image after making it grayscale_
 
 [![Screen Shots][threshold-img]](https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project)
+ <td>
+      <img src="readme-images/threshold-img.png"></img>
+    </td>
 
 _Converting image into a binary image with Thresholding_
 
@@ -185,6 +127,10 @@ _To adjust the thickness, we're generating the median image_
 _After dilation and median images, it's evident whether there's a car in a parking spot or not._
 
 [![Screen Shots][spaces-with-counters]](https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project)
+
+ <td>
+      <img src="readme-images/Spaces-with-counted-pixels.png"></img>
+    </td>
 
 _Now, on our original dilated image, we can count the white pixels and display their numbers on the image. If a parking space is empty, the number of white pixels is expected to be less than 900. However, if the number of white pixels is more than 900, it is an indication that there is a car present in the parking space._
 
