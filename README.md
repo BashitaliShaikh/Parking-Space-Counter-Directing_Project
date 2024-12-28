@@ -22,14 +22,14 @@ Here’s an updated version of your README file with your implementation details
   <p align="center">
     A Parking Space Counter Project
     <br />
-    <a href="https://github.com/alperrkilic/Parking-Space-Counter-Project"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/alperrkilic/Parking-Space-Counter-Project">View Demo</a>
+    <a href="https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project">View Demo</a>
     ·
-    <a href="https://github.com/alperrkilic/Parking-Space-Counter-Project/issues">Report Bug</a>
+    <a href="https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project/issues">Report Bug</a>
     ·
-    <a href="https://github.com/alperrkilic/Parking-Space-Counter-Project/issues">Request Feature</a>
+    <a href="https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project/issues">Request Feature</a>
   </p>
 </div>
 
@@ -68,7 +68,7 @@ Here’s an updated version of your README file with your implementation details
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/alperrkilic/Parking-Space-Counter-Project)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project)
 
 The Parking Space Counter project is designed to help parking lot operators or drivers quickly and easily determine the number of available parking spaces in a lot. By using computer vision techniques to analyze video footage of the lot, the system can accurately count the number of open spaces and make this information available in real-time. This project can be easily applied to any parking space with just a camera and a computer, helping people find available parking spots quickly and easily.
 
@@ -120,7 +120,7 @@ _Installing the Parking Space Counter is quick and easy. Follow these simple ste
 1. Create your virtual environment with Pycharm
 2. Clone the repository to your local machine:
    ```sh
-   git clone https://github.com/alperrkilic/Parking-Space-Counter-Project
+   git clone https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project
    ```
 3. Install the required dependencies:
    ```sh
@@ -139,7 +139,7 @@ _Installing the Parking Space Counter is quick and easy. Follow these simple ste
 <!-- Images -->
 ## Images
 
-[![Screen Shots][parking-spaces-to-be-checked]](https://github.com/alperrkilic/Parking-Space-Counter-Project)
+[![Screen Shots][parking-spaces-to-be-checked]](https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project)
 
 _Places that are considered as parking spaces manually selected with ParkingSpacePicker.py_
 
@@ -155,19 +155,19 @@ _Places that are considered as parking spaces manually selected with ParkingSpac
 
 _After selecting the parking spaces, storing them into CarParkPos file and splitting each frame that are selected with ParkingSpacePicker.py_
 
-[![Screen Shots][blurred-img]](https://github.com/alperrkilic/Parking-Space-Counter-Project)
+[![Screen Shots][blurred-img]](https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project)
 
 _Blurring the image after making it grayscale_
 
-[![Screen Shots][threshold-img]](https://github.com/alperrkilic/Parking-Space-Counter-Project)
+[![Screen Shots][threshold-img]](https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project)
 
 _Converting image into a binary image with Thresholding_
 
-[![Screen Shots][dilated-img]](https://github.com/alperrkilic/Parking-Space-Counter-Project)
+[![Screen Shots][dilated-img]](https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project)
 
 _After thresholding, to remove unwanted white pixels we are dilating the threshold image_
 
-[![Screen Shots][median-img]](https://github.com/alperrkilic/Parking-Space-Counter-Project)
+[![Screen Shots][median-img]](https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project)
 
 _To adjust the thickness, we're generating the median image_
 
@@ -184,12 +184,12 @@ _To adjust the thickness, we're generating the median image_
 
 _After dilation and median images, it's evident whether there's a car in a parking spot or not._
 
-[![Screen Shots][spaces-with-counters]](https://github.com/alperrkilic/Parking-Space-Counter-Project)
+[![Screen Shots][spaces-with-counters]](https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project)
 
 _Now, on our original dilated image, we can count the white pixels and display their numbers on the image. If a parking space is empty, the number of white pixels is expected to be less than 900. However, if the number of white pixels is more than 900, it is an indication that there is a car present in the parking space._
 
 
-[![Screen Shots][product-screenshot]](https://github.com/alperrkilic/Parking-Space-Counter-Project)
+[![Screen Shots][product-screenshot]](https://github.com/BashitaliShaikh/Parking-Space-Counter-Directing_Project)
 
 _Finally, we count the number of available parking spaces and draw rectangles around each parking spot. If a parking space is available, we mark it with a green color, and if it is occupied, we mark it with a red color._
 
